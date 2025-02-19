@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Portofolio Saya</h1>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang Saya</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Tentang Saya -->
+  <section id="tentang" class="section">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about-content">
+        <img src="assets/foto-profil.jpg" alt="Foto Profil" class="profile-img">
+        <p>
+          Halo! Saya adalah seorang web developer dengan pengalaman dalam membangun website menggunakan HTML, CSS, dan JavaScript. Saya suka belajar hal baru dan selalu berusaha meningkatkan keterampilan saya.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="proyek" class="section">
+    <div class="container">
+      <h2>Proyek Saya</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/py-chatbot.jpg" alt="Proyek 1">
+          <h3>Proyek 1</h3>
+          <p>Project Python.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/snake-game.jpg" alt="Proyek 2">
+          <h3>Proyek 2</h3>
+          <p>Project C++.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/java.jpg" alt="Proyek 3">
+          <h3>Proyek 3</h3>
+          <p>Project Java.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="section">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Portofolio Steven Owen.</p>
+    </div>
+  </footer>
+</body>
+</html>
